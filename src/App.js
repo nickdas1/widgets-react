@@ -1,10 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Accordion from "./components/Accordion";
 import Dropdown from "./components/Dropdown";
 import Search from "./components/Search";
 import Translate from "./components/Translate";
 import Route from "./components/Route";
 import Header from "./components/Header";
+import Videos from "./components/videos/Videos";
 
 const items = [
     {
@@ -58,6 +59,9 @@ function App() {
             </Route>
             <Route path="/translate">
                 <Translate />
+            </Route>
+            <Route path="/videos">
+                <Videos />
             </Route>
         </div>
     );

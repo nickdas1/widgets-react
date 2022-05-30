@@ -16,6 +16,9 @@ export default function Header() {
             <Link href="/translate" className="item">
                 Translate
             </Link>
+            <Link href="/videos" className="item">
+                Videos
+            </Link>
         </div>
     );
 }
