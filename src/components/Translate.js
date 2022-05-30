@@ -41,6 +41,7 @@ export default function Translate() {
             <hr />
             <h3 className="ui header">Output</h3>
             <Convert text={text} language={language} />
+            <div>Note: Translate API will only work on localhost:3000</div>
         </div>
     );
 }

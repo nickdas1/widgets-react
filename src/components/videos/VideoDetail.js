@@ -2,7 +2,12 @@ import React from "react";
 
 export default function VideoDetail({ video }) {
     if (!video) {
-        return <div>Loading...</div>;
+        return (
+            <>
+                <div>Loading...</div>
+                <div>Note: Video API will only work on localhost:3000</div>
+            </>
+        );
     }
 
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
