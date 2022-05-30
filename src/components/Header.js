@@ -19,6 +19,9 @@ export default function Header() {
             <Link href="/videos" className="item">
                 Videos
             </Link>
+            <Link href="/crypto" className="item">
+                Cryptocurrency
+            </Link>
         </div>
     );
 }

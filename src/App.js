@@ -6,6 +6,7 @@ import Translate from "./components/Translate";
 import Route from "./components/Route";
 import Header from "./components/Header";
 import Videos from "./components/videos/Videos";
+import Crypto from "./components/crypto/Crypto";
 
 const items = [
     {
@@ -62,6 +63,9 @@ function App() {
             </Route>
             <Route path="/videos">
                 <Videos />
+            </Route>
+            <Route path="/crypto">
+                <Crypto />
             </Route>
         </div>
     );
